@@ -42,7 +42,7 @@ I chose firestore as a database. Why? I needed it to be free and it served the p
 The UI is pretty ugly. I know. My priority was to make the actual form pretty. If I had more time, I'd definitely improve the overall design.
 
 ### 3. Serverside-render the form
-The form viewing happens in the same domain as admin console and that's not good.
+The form viewing happens in the same domain as admin console and that's not good. That should be separated to indepented service.
 
 For a faster user experience, I would use NextJS or similar framework to generate a static page of the form once it's ready and serve it through CDN.
 
