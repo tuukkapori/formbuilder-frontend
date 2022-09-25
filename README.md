@@ -35,13 +35,13 @@ I didn't have experience with GCP, so figured this would be a great opportunity 
 
 ## Here's how I would improve the project:
 
-# 1. Move lot of data to a SQL database.
+### 1. Move lot of data to a SQL database.
 I chose firestore as a database. Why? I needed it to be free and it served the purpose okay. However, form answers would be better represented in a relational database.
 
-# 2. Improve the admin UI design.
+### 2. Improve the admin UI design.
 The UI is pretty ugly. I know. My priority was to make the actual form pretty. If I had more time, I'd definitely improve the overall design.
 
-# 3. Serverside-render the form
+### 3. Serverside-render the form
 The form viewing happens in the same domain as admin console and that's not good.
 
 For a faster user experience, I would use NextJS or similar framework to generate a static page of the form once it's ready and serve it through CDN.
