@@ -12,11 +12,13 @@ https://github.com/tuukkapori/formbuilder-cloud-functions
 
 ## Formbuilder is software for creating beautiful forms with zero coding.
 
+<img width="1435" alt="Formbuilder-preview" src="https://user-images.githubusercontent.com/87663603/192145911-edf2ff05-6e72-478c-ad58-7d66331ddb1c.png">
+
 ### Why does this project exist?
 
 Running the IT for Aalto Investment Club, we had to do lot of forms. Collecting sign ups and feedback for our events.
 
-As we want to make sure our brand looks clean, we wanted our forms to be beatiful. That's why google forms and other ugly solutions were out of consideration.
+As we want to make sure our brand looks clean, we wanted our forms to be beatiful as well. That's why google forms and other ugly solutions were out of consideration.
 
 TypeForm, which has inspired this project heavily, was serving us well. Until something happened.
 
@@ -25,6 +27,12 @@ They raised their prices to level which didn't make sense for us. So I figured o
 I can built this myself.
 
 So that's what I did. 
+
+## What does it do?
+
+You can create, design, publish and collect answers for your forms. It's like TypeForm, with less features (so far).
+
+I also built an integration with Google Sheets, so the answers can automatically be saved to sheets also.
 
 ## Architecture
 
@@ -51,6 +59,10 @@ For a faster user experience, I would use NextJS or similar framework to generat
 
 ## What to test the project?
 
-Send me an email (tuukka.pori@gmail.com) and I'll create an account for you :)
+If you read this far, congratz! You can answer the following form to see it in production.
+
+https://formbuilder-f.vercel.app/v1/5hPBwujr1jDTSvo61r9W
+
+If you want to build forms yourself, send me an email (tuukka.pori@gmail.com) and I'll create an account for you :)
 
 
