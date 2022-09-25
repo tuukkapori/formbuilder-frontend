@@ -55,6 +55,8 @@ The form viewing happens in the same domain as admin console and that's not good
 
 For a faster user experience, I would use NextJS or similar framework to generate a static page of the form once it's ready and serve it through CDN.
 
+### 4. Improve types
+The TypeScript types are still a little in progress.
 
 
 ## What to test the project?
