@@ -32,6 +32,9 @@ The front-end is hosted on Vercel, backend is running on Google Cloud Platform.
 
 I didn't have experience with GCP, so figured this would be a great opportunity to learn that.
 
+![Formbuilder-architecture](https://user-images.githubusercontent.com/87663603/192144252-50c90e25-51f9-496d-9fec-c503e08df49c.png)
+
+
 
 ## Here's how I would improve the project:
 
