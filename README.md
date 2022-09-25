@@ -10,7 +10,7 @@ https://github.com/tuukkapori/formbuilder-pubsub
 
 https://github.com/tuukkapori/formbuilder-cloud-functions
 
-## Formbuilder is software for creating beautiful forms with zero coding.
+## Formbuilder is a software for creating beautiful forms with zero coding.
 
 <img width="1435" alt="Formbuilder-preview" src="https://user-images.githubusercontent.com/87663603/192145911-edf2ff05-6e72-478c-ad58-7d66331ddb1c.png">
 
@@ -45,7 +45,7 @@ Here's a quick overview of the project architecture:
 ## Here's how I would improve the project:
 
 ### 1. Move lot of data to a SQL database.
-I chose firestore as a database. Why? I needed it to be free and it served the purpose okay. However, form answers would be better represented in a relational database.
+I chose Firestore as a database. Why? I needed it to be free and it served the purpose okay. However, form answers would be better represented in a relational database.
 
 ### 2. Improve the admin UI design.
 The UI is pretty ugly. I know. My priority was to make the actual form pretty. If I had more time, I'd definitely improve the overall design.
