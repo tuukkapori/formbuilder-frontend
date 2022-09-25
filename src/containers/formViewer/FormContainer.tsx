@@ -53,13 +53,13 @@ const FormContainer = ({ form, children }: any) => {
         }}
       ></div>
       <div id="main-form-container" style={styles.form}>
-        <div style={{ position: 'absolute', top: 30, left: 30 }}>
+        {/* <div style={{ position: 'absolute', top: 30, left: 30 }}>
           <img
             src={AIClogo}
             style={{ width: '50px', height: '50px' }}
             alt="logo"
           />
-        </div>
+        </div> */}
         {children}
       </div>
     </div>
