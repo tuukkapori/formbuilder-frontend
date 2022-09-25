@@ -74,11 +74,6 @@ const FormViewer = ({
                 gap: 15,
               }}
             >
-              <img
-                src={AIClogo}
-                alt=""
-                style={{ width: '80px', height: '80px' }}
-              />
               {!error && (
                 <motion.div
                   key="loader"
@@ -95,7 +90,7 @@ const FormViewer = ({
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                 >
-                  <Typography>The event is full.</Typography>
+                  <Typography>Form is not available.</Typography>
                 </motion.div>
               )}
             </div>
