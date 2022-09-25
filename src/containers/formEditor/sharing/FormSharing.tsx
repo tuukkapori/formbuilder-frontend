@@ -65,7 +65,7 @@ const FormSharing = ({ formId, form }: any) => {
           <Box>
             <Box sx={{ display: 'flex', gap: 2 }}>
               <VisibilityOffIcon />
-              <Typography variant="h5">Form is not published.</Typography>
+              <Typography variant="h5">Form is not published</Typography>
             </Box>
           </Box>
         )}
