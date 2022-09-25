@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Formbuilder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the front end for the project.
 
-## Available Scripts
+The architecture is divided to four services.
 
-In the project directory, you can run:
+https://github.com/tuukkapori/formbuilder-backend
 
-### `npm start`
+https://github.com/tuukkapori/formbuilder-pubsub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://github.com/tuukkapori/formbuilder-cloud-functions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Formbuilder is software for creating beautiful forms with zero coding.
 
-### `npm test`
+### Why does this project exist?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Running the IT for Aalto Investment Club, we had to do lot of forms. Collecting sign ups and feedback for our events.
 
-### `npm run build`
+As we want to make sure our brand looks clean, we wanted our forms to be beatiful. That's why google forms and other ugly solutions were out of consideration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TypeForm, which has inspired this project heavily, was serving us well. Until something happened.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+They raised their prices to level which didn't make sense for us. So I figured out...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I can built this myself.
 
-### `npm run eject`
+So that's what I did. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Architecture
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here's a quick overview of the project architecture:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Formbuilder-architecture](https://user-images.githubusercontent.com/87663603/192144252-50c90e25-51f9-496d-9fec-c503e08df49c.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Here's how I would improve the project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Move lot of data to a SQL database.
+I chose firestore as a database. Why? I needed it to be free and it served the purpose okay. However, form answers would be better represented in a relational database.
+
+### 2. Improve the admin UI design.
+The UI is pretty ugly. I know. My priority was to make the actual form pretty. If I had more time, I'd definitely improve the overall design.
+
+### 3. Serverside-render the form
+The form viewing happens in the same domain as admin console and that's not good. That should be separated to indepented service.
+
+For a faster user experience, I would use NextJS or similar framework to generate a static page of the form once it's ready and serve it through CDN.
+
+
+
+## What to test the project?
+
+Send me an email (tuukka.pori@gmail.com) and I'll create an account for you :)
+
+
