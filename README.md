@@ -20,11 +20,11 @@ Running the IT for Aalto Investment Club, we had to do lot of forms. Collecting 
 
 As we want to make sure our brand looks clean, we wanted our forms to be beatiful as well. That's why google forms and other ugly solutions were out of consideration.
 
-TypeForm, which has inspired this project heavily, was serving us well. Until something happened.
+TypeForm, which has inspired this project heavily, was serving us well. Until...
 
 They raised their prices to level which didn't make sense for us. So I figured out...
 
-I can built this myself.
+I can build this myself.
 
 So that's what I did. 
 
