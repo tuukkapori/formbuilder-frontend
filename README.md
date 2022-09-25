@@ -59,7 +59,7 @@ For a faster user experience, I would use NextJS or similar framework to generat
 
 ## What to test the project?
 
-If you read this far, congratz! I made a special form for you using the software. You can answer it if you dare.
+If you read this far, congratz! You can answer the following form to see it in production.
 
 https://formbuilder-f.vercel.app/v1/5hPBwujr1jDTSvo61r9W
 
