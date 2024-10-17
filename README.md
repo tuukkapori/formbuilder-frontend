@@ -57,14 +57,3 @@ For a faster user experience, I would use NextJS or similar framework to generat
 
 ### 4. Improve types
 The TypeScript types are still a little in progress.
-
-
-## What to test the project?
-
-If you read this far, congratz! You can answer the following form to see it in production.
-
-https://formbuilder-f.vercel.app/v1/5hPBwujr1jDTSvo61r9W
-
-If you want to build forms yourself, send me an email (tuukka.pori@gmail.com) and I'll create an account for you :)
-
-
